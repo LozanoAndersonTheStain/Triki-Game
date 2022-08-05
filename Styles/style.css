@@ -42,6 +42,33 @@
 }
 
 .btn:hover{
-    cursor:progress;
+    cursor: cell;
     background-color: rgb(210, 210, 210); 
+}
+
+.result{
+    text-align: center;
+
+}
+
+.reset{
+    text-align: center;
+    margin: 10px 0;
+}
+
+#reset{
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 247, 255);
+    border-radius: 0.5rem;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    margin: 7px 0;
+    transition: all 0.8s ease-in-out;
+}
+
+#reset:hover{
+    color: darkblue;
+    background-color: crimson;
 }
